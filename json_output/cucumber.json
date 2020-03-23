@@ -1,0 +1,120 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "shop the paticular item from esite",
+        "description": "",
+        "id": "to-automate-the-given-website;shop-the-paticular-item-from-esite;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11964710320,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "navigate to the E-site",
+            "match": {
+              "location": "FirstAsgnmnt.navigate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6422848536,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "go to women category and apply filters",
+            "match": {
+              "location": "FirstAsgnmnt.selection()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3309102106,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "add a product to cart",
+            "match": {
+              "location": "FirstAsgnmnt.add_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7931848005,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "proceed to checkout",
+            "match": {
+              "location": "FirstAsgnmnt.checkout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6171732230,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enter \"gvinutha12@gmail.com\" and \"yellow\" to login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gvinutha12@gmail.com",
+                  "offset": 7
+                },
+                {
+                  "val": "yellow",
+                  "offset": 34
+                }
+              ],
+              "location": "FirstAsgnmnt.login(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7506253929,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "read the message from payment",
+            "match": {
+              "location": "FirstAsgnmnt.payment()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 708403148,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "quit the Browser",
+            "match": {
+              "location": "FirstAsgnmnt.quit()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Automate the given website",
+    "description": "",
+    "id": "to-automate-the-given-website",
+    "keyword": "Feature",
+    "uri": "scenario1.feature"
+  }
+]

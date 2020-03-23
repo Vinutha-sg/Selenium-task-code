@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="44.014898">
+<testcase classname="To Automate the given website" name="shop the paticular item from esite" time="44.014898">
+<system-out><![CDATA[Given navigate to the E-site................................................passed
+Then go to women category and apply filters.................................passed
+Then add a product to cart..................................................passed
+Then proceed to checkout....................................................passed
+Then enter "gvinutha12@gmail.com" and "yellow" to login.....................passed
+Then read the message from payment..........................................passed
+Then quit the Browser.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
